@@ -1,4 +1,4 @@
-set projectLocation=C:\Users\SILPA\workspace\ToolsQA
-cd C:\Users\SILPA\workspace\ToolsQA
-set classpath=C:\Users\SILPA\workspace\ToolsQA\bin;C:\Users\SILPA\workspace\ToolsQA\lib*
+set projectLocation=C:\Users\SILPA\.jenkins\workspace\Test
+cd C:\Users\SILPA\.jenkins\workspace\Test
+set classpath=C:\Users\SILPA\.jenkins\workspace\Test\bin;C:\Users\SILPA\.jenkins\workspace\Test\lib*
 java org.testng.TestNG testng.xml
