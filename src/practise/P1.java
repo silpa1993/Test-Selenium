@@ -6,7 +6,7 @@ import org.testng.annotations.*;
 public class P1 {
 	@Test
 
-	public static void main(String[] args) {
+	public static void FirstTest() {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "C:/Users/SILPA/workspace/JARS/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
